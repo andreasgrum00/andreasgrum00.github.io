@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+/* font-family: 'Varela Round', sans-serif; */
+
+body {
+    background-color: #ccebe0;
+    overflow-x: hidden;
+}
+
+/* Classes */
+
+.titles {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* IDs */
+
+#logo {
+    width: 150px;
+}
+
+#header {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 20px;
+    background-color: transparent;
+    height: 10vh;
+}
+
+#left-buttons {
+    display: flex;
+    float: left;
+}
+
+#right-buttons {
+    display: flex;
+    float: right;
+}
+
+#left-buttons > button {
+    background: none;
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    padding-right: 50px;
+}
+
+#right-buttons > button {
+    background: none;
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    padding-left: 50px;
+}
+
+#left-buttons > button:hover, #right-buttons > button:hover {
+    cursor: pointer;
+    color: purple;
+    text-decoration: underline;
+}
+
+#csj-logo {
+    width: 50px;
+    padding-left: 20px;
+}
+
+#main-area {
+    padding-top: 80px;
+    height: 450px;
+}
+
+#bottom-area {
+    position: absolute;
+    top: 670px;
+    left: 0;
+    width: 100%;
+}
+
+#icon-svg {
+    width: 600px;
+    padding-left: 50px;
+    float: left;
+}
+
+#main-title {
+    color: black;
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif;
+    width: 400px;
+    float: right;
+    padding-right: 15%;
+    padding-top: 5%;
+}
+
+#description-text {
+    width: 45%;
+    font-size: 15px;
+    float: right;
+    padding-right: 1.25%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#divider-hr {
+    margin-top: 130px;
+}
+
+.quebras {
+    width: 85%;
+    border: 1px solid black;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+table, tr, td {
+    padding: 10px;
+    border-collapse: collapse;
+    font-family: 'Varela Round', sans-serif;
+    border: 1px solid black;
+}
+
+tr {
+    background-color: rgb(255, 166, 0);
+}
+
+td {
+    background-color: rgb(224, 70, 96);
+    color: white;
+}
+
+table {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#programas {
+    height: 372px;
+}
