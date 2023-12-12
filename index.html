@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andreas Grumiché | Dev Front-end</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body class="bg-[#111] text-white select-none h-screen">
+    <header class="sticky top-0 border border-transparent border-b-[#333333] p-6 flex flex-row text-xl items-center justify-between">
+        <p class="text-[#986dff]">&lt;<span class="text-white">Andreas Grumiché</span> /&gt;</p>
+        <div class="flex flex-row">
+            <label for="lang" class="mr-2">Língua:</label>
+            <select class="bg-none" name="lang" id="lang">
+                <option value="pt">Português &#127463;&#127479;</option>
+                <option value="">English &#127482;&#127480;</option>
+            </select>
+        </div>
+    </header>
+    <main class="flex justify-center flex-col items-center h-3/4">
+        <div class="flex flex-col items-center mx-10 lg:flex-row text-center">
+            <img class="border-4 border-[#986dff] rounded-full shadow-xl mr-10 mb-10" src="imgs/pfp.jpeg" alt="Andreas Grumiché" width="300" style="animation: bubble-effect 10s ease infinite;" draggable="false">
+            <div class="flex-col">
+                <h1 class="text-4xl mb-5"><span class="text-[#986dff]">console</span>.<span class="text-[#26a64b]">log</span>(<span class="text-[#eaf299]">"Junior Front-end Developer"</span>)</h1>
+                <p class="text-2xl text-[#9ca3af]">Making the web a better place, one line of code at a time.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

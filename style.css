@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@500;600;700;800&display=swap');
+
+* {
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+@keyframes bubble-effect {
+    0% {
+        border-radius: 54% 46% 54% 46% / 30% 32% 68% 70%;
+    }
+
+    25% {
+        border-radius: 48% 52% 46% 54% / 52% 16% 84% 48%;
+    }
+
+    50% {
+        border-radius: 55% 45% 86% 14% / 45% 72% 28% 55%;
+    }
+
+    75% {
+        border-radius: 29% 71% 35% 65% / 46% 44% 56% 54%;
+    }
+
+    100% {
+        border-radius: 54% 46% 54% 46% / 30% 32% 68% 70%;
+    }
+}
